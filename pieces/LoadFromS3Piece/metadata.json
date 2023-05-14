@@ -1,8 +1,8 @@
 {
-    "name": "ExampleComplexPiece",
-    "description": "This is an example of a complex Domino Piece",
+    "name": "LoadFromS3Piece",
+    "description": "This Piece loads file or folder contents from a AWS S3 bucket.",
     "dependency": {
-        "dockerfile": "Dockerfile_1"
+        "requirements_file": "requirements_0.txt"
     },
     "container_resources": {
         "requests": {
@@ -15,10 +15,10 @@
         }
     },
     "tags": [
-        "Example"
+        "AWS"
     ],
     "style": {
-        "node_label": "Complex Piece",
-        "icon_class_name": "fas fa-database"
+        "node_label": "Load from S3",
+        "icon_class_name": "fas fa-download"
     }
 }
